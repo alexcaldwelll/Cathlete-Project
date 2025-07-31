@@ -2,7 +2,6 @@ import gradio as gr
 import openai
 import os
 
-# 🔐 Safe API key from environment
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def chat_bot(message, state):
